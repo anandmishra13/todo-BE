@@ -98,8 +98,9 @@ from mongoengine import connect
 
 connect(
     db='todo_DB',
-    host='localhost',
-    port=27017
+    # host='localhost',
+    # port=27017
+    host='mongodb+srv://root:admin@cluster0.h9ghp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 )
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
